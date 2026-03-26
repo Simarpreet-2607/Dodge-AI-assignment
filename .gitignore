@@ -1,0 +1,20 @@
+# Node
+node_modules/
+.next/
+out/
+build/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment
+.vercel/
