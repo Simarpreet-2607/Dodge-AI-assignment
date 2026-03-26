@@ -139,7 +139,7 @@ export default function GraphVisualization({ data, onNodeSelect, highlightedNode
         randomize: false,
         animate: true,
         refresh: 1
-      }
+      } as any
     });
 
     cy.on('tap', 'node', (evt) => {
